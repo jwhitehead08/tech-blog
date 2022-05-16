@@ -1,6 +1,7 @@
-const express = require('express');
+
 
 const PORT = process.env.PORT || 3001;
+const express = require('express');
 const app = express();
 const path = require('path');
 
@@ -48,3 +49,4 @@ app.use(require('./controllers/'));
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
+
