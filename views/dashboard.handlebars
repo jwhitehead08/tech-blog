@@ -7,7 +7,7 @@
       <input type="text" id="post-title" name="post-title" />
     </div>
     <div>
-      <label for="post-text">Link</label>
+      <label for="post-text">Content</label>
       <input id="post-text" name="post-text" />
     </div>
     <button type="submit" class="btn">Create</button>
@@ -20,12 +20,22 @@
   <ol>
     {{#each posts as |post|}}
     <li>
-      {{> post-info post}}
+      <h3>{{post.title}}</h3>
+      <p>{{post.post_text}}</p>
+      {{> edit-post post}}
       <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
     </li>
     {{/each}}
   </ol>
 </section>
 {{/if}}
+
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ol>
 
 <script src="/javascript/add-post.js"></script>
