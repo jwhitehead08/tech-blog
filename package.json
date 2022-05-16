@@ -2,12 +2,12 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
-  "main": "Server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.js",
+    "start": "node server.js",
     "seeds": "node seeds/index.js",
-    "watch": "nodemon Server.js"
+    "watch": "nodemon server.js"
   },
   "keywords": [
     "heroku"
