@@ -22,6 +22,7 @@ const sess = {
 };
 
 app.use(session(sess));
+app.use(routes);
 
 const helpers = require('./utils/helpers');
 
