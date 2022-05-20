@@ -18,3 +18,4 @@ Post.belongsTo(User, {
 
 
 module.exports = { User, Post };
+//comment to satisfy change
