@@ -12,7 +12,7 @@
 Make sure you have Node.js, mysql, and express.js installed.
 
 #### Video & Screenshot
-[Deployed](https://enigmatic-headland-21338.herokuapp.com/)
+[Deployed](https://sleepy-shelf-58268.herokuapp.com/)
 
 ![screenshot] (tech-blog/public/images/Screen Shot 2022-05-15 at 8.46.40 PM.png)
 
